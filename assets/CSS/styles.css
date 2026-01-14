@@ -1,0 +1,25 @@
+/*header*/
+
+header {
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+}
+
+header .logo-menu,
+header .search {
+    display: flex;
+    justify-content: center;
+}
+
+header .logo-menu img {
+    margin-left: 32px;
+}
+
+header .search input {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #CCC;
+}
